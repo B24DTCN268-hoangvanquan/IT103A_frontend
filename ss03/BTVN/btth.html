@@ -7,21 +7,42 @@
   </head>
   <body>
     <h2>Đăng ký thành viên mới</h2>
+
     <form>
       <label for="fullname">Họ và tên</label>
-      <input type="text" id="" name="" value="Nguyễn Văn An" />
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        value="Nguyễn Văn An"
+      />
       <br /><br />
 
       <label for="birthdate">Ngày sinh đầy đủ</label>
-      <input type="date" id="" name="" value="2005-03-15" />
+      <input
+        type="date"
+        id="birthdate"
+        name="birthdate"
+        value="2005-03-15"
+      />
       <br /><br />
 
-      <label for="enrollmonth">Tháng và năm nhập học</label>
-      <input type="month" id="" name="" value="2023-09" />
+      <label for="enroll_month">Tháng và năm nhập học</label>
+      <input
+        type="month"
+        id="enroll_month"
+        name="enroll_month"
+        value="2023-09"
+      />
       <br /><br />
 
-      <label for="studytime">Thời gian học</label>
-      <input type="time" id="" name="" value="08:00" />
+      <label for="study_time">Thời gian học</label>
+      <input
+        type="time"
+        id="study_time"
+        name="study_time"
+        value="08:00"
+      />
       <br /><br />
 
       <label>Giới tính</label>
@@ -29,26 +50,42 @@
       <label for="male">Nam</label>
       <input type="radio" id="female" name="gender" value="female" />
       <label for="female">Nữ</label>
-      <input type="radio" id="other" name="gender" value="other" checked="" />
+      <input
+        type="radio"
+        id="other"
+        name="gender"
+        value="other"
+        checked
+      />
       <label for="other">Khác</label>
       <br /><br />
 
       <label for="email">Email sinh viên</label>
-      <input type="email" id="" name="" value="sinhvien@university.edu.vn" />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value="sinhvien@university.edu.vn"
+      />
       <br /><br />
 
       <label for="password">Mật khẩu</label>
-      <input type="password" id="" name="" value="password123" />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        value="password123"
+      />
       <br /><br />
 
-      <label for="">Mục tiêu học tập</label>
-      <textarea id="" name="" rows="5" cols="20">
-      Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội
+      <label for="goal">Mục tiêu học tập</label>
+      <textarea id="goal" name="goal" rows="5" cols="20">
+Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội
       </textarea>
       <br /><br />
 
-      <label for="text">Cơ sở</label>
-      <select id="" name="text">
+      <label for="campus">Cơ sở</label>
+      <select id="campus" name="campus">
         <option value="hanoi">Hà Nội</option>
         <option value="hcm">Hồ Chí Minh</option>
         <option value="danang">Đà Nẵng</option>
@@ -60,30 +97,60 @@
       <br /><br />
 
       <label>Môn học yêu thích</label>
-      <input type="checkbox" />
+      <input type="checkbox" id="math" name="favorite_subjects" value="math" />
       <label for="math">Toán học</label>
-      <input type="checkbox" />
+
+      <input
+        type="checkbox"
+        id="programming"
+        name="favorite_subjects"
+        value="programming"
+      />
       <label for="programming">Lập trình</label>
-      <input type="checkbox" id="" name="" value="" />
+
+      <input
+        type="checkbox"
+        id="english"
+        name="favorite_subjects"
+        value="english"
+      />
       <label for="english">Tiếng Anh</label>
-      <input type="checkbox" id="" name="" value="" />
-      <label for="">Vật lý</label>
+
+      <input
+        type="checkbox"
+        id="physics"
+        name="favorite_subjects"
+        value="physics"
+      />
+      <label for="physics">Vật lý</label>
       <br /><br />
 
       <label for="progress">Tiến độ học tập</label>
-      <input type="range" id="" name="" min="0" max="100" value="70" />
+      <input
+        type="range"
+        id="progress"
+        name="progress"
+        min="0"
+        max="100"
+        value="70"
+      />
       <br /><br />
 
       <label for="year">Năm học thứ</label>
-      <input type="number" id="" name="" value="2" />
+      <input type="number" id="year" name="year" value="2" />
       <br /><br />
 
-      <label for="search">Tìm kiếm khóa học</label>
-      <input type="search" id="" name="" value="Khoa học máy tính" />
+      <label for="search_course">Tìm kiếm khóa học</label>
+      <input
+        type="search"
+        id="search_course"
+        name="search_course"
+        value="Khoa học máy tính"
+      />
       <br /><br />
 
-      <label for="color">Màu sắc yêu thích</label>
-      <input type="color" id="" name="" />
+      <label for="favorite_color">Màu sắc yêu thích</label>
+      <input type="color" id="favorite_color" name="favorite_color" />
       <br /><br />
 
       <button type="reset">Hủy</button>

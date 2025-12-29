@@ -7,25 +7,31 @@
   </head>
   <body>
     <h2>Form đặt lịch tư vấn học tập</h2>
+
     <form>
       <label for="fullname">Họ và tên</label>
-      <input type="text" name="input" id="fullname" />
-      <br />
-      <br />
-      <label for="datetime-local">Chọn ngày giờ :</label>
-      <input type="datetime-local" name="input" id="datetime-local" />
-      <br />
-      <br />
-      <label for="">Loại dịch vụ</label>
-      <select name="" id="">
-        <option value="">Tư vấn học tập</option>
-        <option value="">Hướng nghiệp</option>
+      <input type="text" name="fullname" id="fullname" />
+      <br /><br />
+
+      <label for="appointment_time">Chọn ngày giờ :</label>
+      <input
+        type="datetime-local"
+        name="appointment_time"
+        id="appointment_time"
+      />
+      <br /><br />
+
+      <label for="service">Loại dịch vụ</label>
+      <select name="service" id="service">
+        <option value="tu_van_hoc_tap">Tư vấn học tập</option>
+        <option value="huong_nghiep">Hướng nghiệp</option>
       </select>
-      <br />
-      <br />
-      <label for="">Ghi chú :</label>
-      <textarea name="" id=""></textarea>
-      <br />
+      <br /><br />
+
+      <label for="note">Ghi chú :</label>
+      <textarea name="note" id="note"></textarea>
+      <br /><br />
+
       <button type="submit">Đặt lịch</button>
     </form>
   </body>

@@ -7,26 +7,27 @@
   </head>
   <body>
     <h2>Đặt mua tài liệu lập trình</h2>
+
     <form>
-      <label for="">Chọn tài liệu: </label>
-      <select name="" id="">
-        <option value="">Tài liệu môn HTML & CSS</option>
-        <option value="">Tài liệu môn javascript</option>
+      <label for="document">Chọn tài liệu: </label>
+      <select name="document" id="document">
+        <option value="html_css">Tài liệu môn HTML & CSS</option>
+        <option value="javascript">Tài liệu môn JavaScript</option>
       </select>
-      <br />
-      <br />
-      <label for="number">Số lượng </label>
-      <input type="number" value="1" />
-      <br />
-      <br />
-      <label for="">Ghi chú:</label>
-      <textarea name="" id=""></textarea>
-      <br />
-      <br />
-      <label for="">Địa chỉ giao hàng:</label>
-      <textarea name="" id=""></textarea>
-      <br />
-      <br />
+      <br /><br />
+
+      <label for="quantity">Số lượng </label>
+      <input type="number" name="quantity" id="quantity" value="1" />
+      <br /><br />
+
+      <label for="note">Ghi chú:</label>
+      <textarea name="note" id="note"></textarea>
+      <br /><br />
+
+      <label for="address">Địa chỉ giao hàng:</label>
+      <textarea name="address" id="address"></textarea>
+      <br /><br />
+
       <button type="submit">Đặt mua</button>
     </form>
   </body>
