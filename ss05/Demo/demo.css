@@ -1,0 +1,56 @@
+/* CSS Selector (Bộ chọn CSS)  */
+/* Chọn theo element */
+h1 {
+  background-color: yellow;
+}
+
+/* Chọn tất cả */
+* {
+  font-size: large;
+}
+
+/* Chọn theo ID */
+#h3-text-id {
+  color: aqua;
+}
+
+/* Chọn theo class */
+.h3-text-class {
+  color: aqua;
+}
+
+/* Chọn theo attribute */
+a[href] {
+  background-color: blue;
+}
+/* Bộ chọn Pseudo class */
+li:hover {
+  background-color: rgb(241, 54, 198);
+}
+li:active {
+  font-size: 50px;
+}
+/* color attribute */
+.color-attr {
+  color: aliceblue;
+  background-color: aliceblue;
+}
+/* font attribute */
+.font-attr {
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+
+/* text attribute */
+.text-attr {
+  text-align: center;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  height: 60px;
+}
