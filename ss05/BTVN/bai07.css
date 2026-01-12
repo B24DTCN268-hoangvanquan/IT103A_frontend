@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.address-section {
+  width: 85%;
+  margin: 40px auto;
+  background-color: #f3f3f8;
+  padding: 30px;
+}
+
+.address-section h2 {
+  color: #2b7cff;
+  margin-bottom: 10px;
+}
+
+.address-section .subtitle {
+  color: #2b7cff;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.address-section img {
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+.branch-title {
+  color: #2b7cff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.branch-list p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.branch-1 {
+  color: red;
+}
+
+.branch-4 {
+  font-weight: bold;
+}
+
+hr {
+  width: 85%;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+.section-box {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #f3f3f7;
+  padding: 30px 40px;
+  border-radius: 4px;
+}
+
+.section-box h2 {
+  text-align: center;
+  color: #2b7cff;
+  margin-bottom: 15px;
+}
+
+.section-box p {
+  color: #333;
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
