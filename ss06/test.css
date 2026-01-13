@@ -1,0 +1,22 @@
+body {
+  background-color: #fff7ed;
+  font: #92400e;
+}
+header {
+  text-align: center;
+  background-color: #fde68a;
+  color: #92400e;
+}
+.div1 {
+  background-color: #fed7aa;
+  text-align: center;
+}
+.div2 img {
+  text-align: center;
+  padding-left: 310px;
+}
+footer {
+  background-color: #78350f;
+  text-align: center;
+  color: white;
+}
