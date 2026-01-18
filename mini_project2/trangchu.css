@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+  font-size: 18px;
+}
+h1 {
+  padding-bottom: 10px;
+}
 body {
   background-color: #fff7ed;
   color: #78350f;
@@ -19,10 +25,11 @@ nav {
   padding: 10px;
 }
 nav a {
-  padding-left: 20px;
   text-decoration: none;
   font-weight: 600;
   color: #78350f;
+  margin-left: 30px;
+  transition: 0.5s;
 }
 .main1 {
   position: relative;
@@ -36,12 +43,12 @@ img {
 .main1-right {
   position: absolute;
   background-color: #f0f5f9;
-  width: 380px;
+  width: 390px;
   bottom: 40px;
   right: 40px;
   opacity: 0.9;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   color: black;
 }
 .main2 {
@@ -54,6 +61,33 @@ img {
   gap: 30px;
   margin-top: 20px;
 }
+.main2 p {
+  margin-top: 10px;
+}
+.main3 {
+  text-align: center;
+  margin-top: 90px;
+}
+.main3 p {
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+}
+.main3 h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+footer {
+  text-align: center;
+  background-color: #78350f;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
+footer p {
+  padding-top: 10px;
+}
+
 .list-card {
   background-color: #ffffff;
   padding: 20px;
@@ -65,4 +99,10 @@ img {
 .list-card:hover {
   background-color: #fffbeb;
   transform: translateY(-10px);
+}
+a:hover {
+  background-color: #f17126;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
