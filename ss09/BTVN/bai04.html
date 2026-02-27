@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai02</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      width: 50%;
+      gap: 10px;
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    .food-item {
+      width: 130px;
+    }
+    img {
+      border-radius: 5px;
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+    }
+    p {
+      font-weight: 600;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="food-item">
+        <img
+          src="https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6"
+          alt="Macaroons"
+        />
+        <p>Macaroons</p>
+      </div>
+
+      <div class="food-item">
+        <img
+          src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+          alt="Hamburger and Fries"
+        />
+        <p>Hamburger and Fries</p>
+      </div>
+
+      <div class="food-item">
+        <img
+          src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759"
+          alt="Basil Leaves"
+        />
+        <p>Basil Leaves and Avocado on Sliced Bread</p>
+      </div>
+
+      <div class="food-item">
+        <img
+          src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+          alt="Grilled Meat"
+        />
+        <p>Grilled Meat</p>
+      </div>
+
+      <div class="food-item">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+          alt="Fish"
+        />
+        <p>Fish</p>
+      </div>
+
+      <div class="food-item">
+        <img
+          src="https://th.bing.com/th?id=OIF.PDa5h43nqd8gS%2bsBQtrngQ&w=231&h=184&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+          alt="Steak"
+        />
+        <p>Steak</p>
+      </div>
+    </div>
+  </body>
+</html>

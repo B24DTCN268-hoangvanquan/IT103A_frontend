@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background: #f4f6f8;
+        color: #1f2937;
+      }
+
+      /* CONTAINER */
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+
+      /* HEADER */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+      }
+
+      nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #111827;
+        font-weight: 600;
+      }
+
+      /* HERO */
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+      }
+
+      .hero-text {
+        max-width: 500px;
+      }
+
+      .hero-text h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+      }
+
+      .hero-text p {
+        color: #6b7280;
+        margin-bottom: 25px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 22px;
+        background: #ef4444;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+      }
+
+      .hero img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      /* SECTION TITLE */
+      .section-title {
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      /* RECENT POSTS */
+      .posts {
+        background: #eaf3f8;
+        padding: 40px 20px;
+        margin-bottom: 60px;
+      }
+
+      .post-list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .post {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        flex: 1;
+        min-width: 260px;
+      }
+
+      .post h3 {
+        margin-bottom: 10px;
+      }
+
+      .post small {
+        color: #6b7280;
+      }
+
+      /* WORKS */
+      .work {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+
+      .work img {
+        width: 200px;
+        border-radius: 8px;
+      }
+
+      .work-info h3 {
+        margin-bottom: 10px;
+      }
+
+      .tag {
+        display: inline-block;
+        background: #1e3a8a;
+        color: white;
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+
+      .category {
+        color: #6b7280;
+        font-size: 14px;
+      }
+
+      /* FOOTER */
+      footer {
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 30px;
+        border-top: 1px solid #ddd;
+      }
+
+      .socials {
+        margin-bottom: 15px;
+      }
+
+      .socials a {
+        text-decoration: none;
+        margin: 0 12px;
+        font-size: 22px;
+        color: #1f2937;
+        transition: 0.3s;
+      }
+
+      .socials a:hover {
+        color: #ef4444;
+        transform: scale(1.1);
+      }
+
+      /* RESPONSIVE */
+      @media (max-width: 768px) {
+        .hero {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .hero img {
+          margin-top: 30px;
+        }
+
+        header {
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        .work {
+          flex-direction: column;
+        }
+
+        .work img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h2>Home</h2>
+        <nav>
+          <a href="#">Works</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Hi, I am John,<br />Creative Technologist</h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat.
+          </p>
+          <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <img src="https://i.pravatar.cc/300" alt="profile" />
+      </section>
+
+      <section class="posts">
+        <h3 class="section-title">Recent posts</h3>
+
+        <div class="post-list">
+          <div class="post">
+            <h3>Making a design system from scratch</h3>
+            <small>12 Feb 2020 | Design, Pattern</small>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+
+          <div class="post">
+            <h3>Creating pixel perfect icons in Figma</h3>
+            <small>12 Feb 2020 | Figma, Icon Design</small>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3 class="section-title">Featured works</h3>
+
+        <div class="work">
+          <img
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+            alt=""
+          />
+          <div class="work-info">
+            <h3>Designing Dashboards</h3>
+            <span class="tag">2020</span>
+            <span class="category">Dashboard</span>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+            alt=""
+          />
+          <div class="work-info">
+            <h3>Vibrant Portraits of 2020</h3>
+            <span class="tag">2018</span>
+            <span class="category">Illustration</span>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img
+            src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+            alt=""
+          />
+          <div class="work-info">
+            <h3>36 Days of Malayalam type</h3>
+            <span class="tag">2018</span>
+            <span class="category">Typography</span>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Copyright ©2020 All rights reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
